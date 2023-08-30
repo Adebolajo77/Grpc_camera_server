@@ -1,3 +1,19 @@
 grpcio
 grpcio-tools
 opencv-python
+
+
+
+
+
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb &&
+
+sudo dpkg -i cloudflared.deb &&
+
+sudo cloudflared service install eyJhIjoiZGQzNDYxNGVmMzVkZTBkZGQzZGEyNzNiMGFiYzE1NzkiLCJ0IjoiZDU3Yzg4MDYtZGUzMC00MmRmLWEwYzUtMDMyN2U2NWM4YzcyIiwicyI6Ik56Vm1NemxtWTJRdFpqUTRPUzAwTjJKa0xXSXpNVFF0TWpFd05EWTNORFEyTTJJdyJ9
+
+curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64.deb &&
+
+sudo dpkg -i cloudflared.deb &&
+
+sudo cloudflared service install eyJhIjoiZGQzNDYxNGVmMzVkZTBkZGQzZGEyNzNiMGFiYzE1NzkiLCJ0IjoiZDU3Yzg4MDYtZGUzMC00MmRmLWEwYzUtMDMyN2U2NWM4YzcyIiwicyI6Ik56Vm1NemxtWTJRdFpqUTRPUzAwTjJKa0xXSXpNVFF0TWpFd05EWTNORFEyTTJJdyJ9
